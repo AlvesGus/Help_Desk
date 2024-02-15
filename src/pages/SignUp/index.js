@@ -4,6 +4,7 @@ import logo from '../../assets/logo.png'
 import { Link } from 'react-router-dom'
 import { AuthContext } from '../../contexts/auth'
 
+
 export default function SignUp() {
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
